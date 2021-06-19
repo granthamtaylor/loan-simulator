@@ -1,0 +1,218 @@
+[ 
+  {
+    "name": "addr_state",
+    "feature": true,
+    "target": false,
+    "type": "categorical"
+  },
+  {
+    "name": "annual_inc",
+    "feature": true,
+    "target": false,
+    "type": "numeric"
+  },
+  {
+    "name": "application_type",
+    "feature": true,
+    "target": false,
+    "type": "categorical"
+  },
+  {
+    "name": "desc",
+    "feature": false,
+    "target": false,
+    "type": "text"
+  },
+  {
+    "name": "dti",
+    "feature": true,
+    "target": false,
+    "type": "numeric"
+  },
+  {
+    "name": "earliest_cr_line",
+    "feature": false,
+    "target": false,
+    "type": "numeric"
+  },
+  {
+    "name": "emp_length",
+    "feature": true,
+    "target": false,
+    "type": "categorical"
+  },
+  {
+    "name": "emp_title",
+    "feature": true,
+    "target": false,
+    "type": "categorical"
+  },
+  {
+    "name": "fico_range_high",
+    "feature": true,
+    "target": false,
+    "type": "numeric"
+  },
+  {
+    "name": "fico_range_low",
+    "feature": true,
+    "target": false,
+    "type": "numeric"
+  },
+  {
+    "name": "grade",
+    "feature": true,
+    "target": false,
+    "type": "categorical"
+  },
+  {
+    "name": "home_ownership",
+    "feature": true,
+    "target": false,
+    "type": "categorical"
+  },
+  {
+    "name": "initial_list_status",
+    "feature": true,
+    "target": false,
+    "type": "categorical"
+  },
+  {
+    "name": "installment",
+    "feature": true,
+    "target": false,
+    "type": "numeric"
+  },
+  {
+    "name": "int_rate",
+    "feature": true,
+    "target": false,
+    "type": "numeric"
+  },
+  {
+    "name": "issue_d",
+    "feature": true,
+    "target": false,
+    "type": "date"
+  },
+  {
+    "name": "loan_amnt",
+    "feature": true,
+    "target": false,
+    "type": "numeric"
+  },
+  {
+    "name": "loan_status",
+    "feature": false,
+    "target": true,
+    "type": "boolean"
+  },
+  {
+    "name": "mo_sin_old_il_acct",
+    "feature": true,
+    "target": false,
+    "type": "numeric"
+  },
+  {
+    "name": "mo_sin_old_rev_tl_op",
+    "feature": true,
+    "target": false,
+    "type": "numeric"
+  },
+  {
+    "name": "mort_acc",
+    "feature": true,
+    "target": false,
+    "type": "numeric"
+  },
+  {
+    "name": "open_acc",
+    "feature": true,
+    "target": false,
+    "type": "numeric"
+  },
+  {
+    "name": "policy_code",
+    "feature": true,
+    "target": false,
+    "type": "categorical"
+  },
+  {
+    "name": "pub_rec",
+    "feature": true,
+    "target": false,
+    "type": "numeric"
+  },
+  {
+    "name": "pub_rec_bankruptcies",
+    "feature": true,
+    "target": false,
+    "type": "numeric"
+  },
+  {
+    "name": "purpose",
+    "feature": true,
+    "target": false,
+    "type": "text"
+  },
+  {
+    "name": "revol_bal",
+    "feature": true,
+    "target": false,
+    "type": "numeric"
+  },
+  {
+    "name": "revol_util",
+    "feature": true,
+    "target": false,
+    "type": "numeric"
+  },
+  {
+    "name": "term",
+    "feature": true,
+    "target": false,
+    "type": "categorical"
+  },
+  {
+    "name": "title",
+    "feature": false,
+    "target": false,
+    "type": "text"
+  },
+  {
+    "name": "total_acc",
+    "feature": true,
+    "target": false,
+    "type": "numeric"
+  },
+  {
+    "name": "verification_status",
+    "feature": true,
+    "target": false,
+    "type": "categorical"
+  },
+  {
+    "name": "zip_code",
+    "feature": false,
+    "target": false,
+    "type": "categorical"
+  },
+  {
+    "name": "npv",
+    "feature": false,
+    "target": false,
+    "type": "numeric"
+  },
+  {
+    "name": "logit",
+    "feature": false,
+    "target": false,
+    "type": "numeric"
+  },
+  {
+    "name": "xgb",
+    "feature": false,
+    "target": false,
+    "type": "numeric"
+  }
+]

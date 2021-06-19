@@ -1,0 +1,43 @@
+version: '3.2'
+
+services:
+
+  postgres:
+    container_name: postgres
+    image: postgres:12.2
+    environment:
+      - POSTGRES_DB=database
+      - POSTGRES_USER=username
+      - POSTGRES_PASSWORD=password
+    ports:
+      - "5432:5432"
+      
+  django:
+    container_name: django
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    volumes:
+      - type: bind
+        source: ./backend
+        target: /usr/src/app/
+    command: bash /usr/src/app/manage.sh
+    ports:
+      - 8000:8000
+    depends_on:
+      - postgres
+
+  react:
+    container_name: react
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    stdin_open: true
+    volumes:
+      - './frontend:/app/frontend'
+      - /app/frontend/node_modules/
+    command: npm run start
+    ports:
+      - 3000:3000
+    depends_on:
+      - django

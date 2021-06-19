@@ -1,0 +1,17 @@
+asgiref==3.2.7
+Django==3.0.7
+gunicorn==20.0.4
+pytz==2020.1
+sqlparse==0.3.1
+django-extensions
+psycopg2-binary==2.8.5
+pyparsing
+djangorestframework
+django-cors-headers
+djangorestframework-simplejwt
+django-extensions
+django-pgviews
+numpy
+pandas
+sklearn
+django-pandas

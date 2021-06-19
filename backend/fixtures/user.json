@@ -1,0 +1,20 @@
+[
+    {
+        "username": "grantham",
+        "email": "grantham.taylor@boulevardcg.com",
+        "password": "password",
+        "first_name": "Grantham",
+        "last_name": "Taylor",
+        "is_staff": true,
+        "is_superuser": true
+    },
+    {
+        "username": "will",
+        "email": "will.karnasiewicz@boulevardcg.com",
+        "password": "password",
+        "first_name": "Will",
+        "last_name": "Karnasiewicz",
+        "is_staff": true,
+        "is_superuser": true
+    }
+]
